@@ -1,0 +1,146 @@
+
+
+/* MEDIAS */
+
+@media only screen and (max-width: 1440px) {
+
+}
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1280px) {
+
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  h2, .h2-title,
+  .h2-title__number {
+    font-size: 3rem;
+  }
+
+  h3, .h3-title {
+    font-size: 1.875rem;
+  }
+
+  h4, .h4-title {
+    font-size: 1.250rem;
+  }
+
+  .hamburger-box {
+    display: flex;
+  }
+
+  .o-container,
+  .o-features__container,
+  .p-differences,
+  .o-prompt {
+    width: 100%;
+  }
+
+  .o-features {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+
+  .p-mockup__play {
+    top: 15%
+  }
+
+  .c-container--bots, {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-mockup {
+    flex-wrap: wrap;
+  }
+
+  .c-nav__header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .o-table__line, .o-table__index {
+    padding: 0;
+  }
+
+  .o-table__line span, .o-table__index span {
+    font-size: .7rem;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .logo svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .c-footer__logo {
+    display: none;
+  }
+
+  .p-block--rules,
+  .p-auth__type {
+    flex-wrap: wrap;
+  }
+
+  .p-differences {
+    margin-right: 0;
+  }
+
+  .p-auth__type-container {
+    width: 100%;
+  }
+
+  .p-auth__type-container:first-child {
+    border-top-left-radius: .313rem;
+    border-top-right-radius: .313rem;
+  }
+
+  .p-auth__type-container:last-child {
+    border-radius: 0;
+  }
+
+  .p-auth__type-container:hover:last-child,
+  .p-auth__type-container.is-active:last-child {
+    border-top: none;
+    border-left: 2px solid var(--accent-color);
+  }
+
+  .p-auth__type-container.is-active:last-child, .p-auth__type-container:last-child {
+    border-top-right-radius: 0;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .o-features__container-inner {
+    flex-wrap: wrap;
+  }
+
+  .o-features__inner-item {
+    width: 100%;
+  }
+
+  .p-differences h3 {
+    width: initial;
+    height: initial;
+  }
+}

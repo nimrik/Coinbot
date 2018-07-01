@@ -1,0 +1,118 @@
+
+.p-section--hero {
+  padding: 300px 0;
+}
+
+.l-differences {
+  display: flex;
+
+  margin: -1.250em auto;
+}
+
+.p-differences {
+  width: 50%;
+  margin: 1.250em;
+}
+
+.p-differences:last-child {
+  margin-right: 0;
+}
+
+.p-differences h3 {
+  width: 80%;
+  height: 130px;
+}
+
+.c-features--telegram {
+  width: 50%;
+  flex-direction: column;
+}
+
+.p-mockup {
+  z-index: 1;
+  margin: -2.5em;
+  position: relative;
+
+  display: flex;
+}
+
+.p-mockup__item {
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-mockup__item img {
+  width: 100%;
+}
+
+.p-mockup__play {
+  cursor: pointer;
+
+  top: 28%;
+  position: absolute;
+}
+
+.p-questions {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-questions.is-active p {
+  display: block;
+}
+
+.p-questions.is-active .o-svg-control {
+  transform: rotate(180deg);
+}
+
+.p-questions p {
+  display: none;
+}
+
+.p-questions__container {
+  display: flex;
+  align-items: flex-start;
+
+  cursor: pointer;
+}
+
+.p-questions h4 {
+  width: 90%;
+  position: relative;
+}
+
+.c-container--bots {
+  width: 33.33%;
+  margin: 1.250em 0;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c-container--bots img {
+  width: 300px;
+  height: 300px;
+}
+
+.o-block h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.c-button--bots {
+  margin-top: 5em;
+}
+
+.p-block--bots {
+  flex-wrap: wrap;
+}
+
+.p-container--rules h4 {
+  margin-bottom: 0;
+}
