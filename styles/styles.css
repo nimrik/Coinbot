@@ -11,11 +11,15 @@
 /* Import Components Styles */
 @import "pages/landing.css";
 @import "pages/auth.css";
+@import "pages/order.css";
+@import "pages/payment.css";
+@import "pages/telegram.css";
 
 
 
 /* Import Components Styles */
 @import "components/c-nav.css";
+@import "components/c-main.css";
 @import "components/c-footer.css";
 
 @import "medias.css";

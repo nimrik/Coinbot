@@ -75,6 +75,11 @@
 
 @media only screen and (max-width: 425px) {
 
+  .l-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .o-table__line, .o-table__index {
     padding: 0;
   }
@@ -97,7 +102,8 @@
   }
 
   .p-block--rules,
-  .p-auth__type {
+  .p-auth__type,
+  .p-registration-bots {
     flex-wrap: wrap;
   }
 
@@ -105,7 +111,8 @@
     margin-right: 0;
   }
 
-  .p-auth__type-container {
+  .p-auth__type-container,
+  .p-registration-bots__item {
     width: 100%;
   }
 
@@ -131,11 +138,13 @@
 }
 
 @media only screen and (max-width: 320px) {
-  .o-features__container-inner {
+  .o-features__container-inner,
+  .p-payment__buttons-container {
     flex-wrap: wrap;
   }
 
-  .o-features__inner-item {
+  .o-features__inner-item,
+  .p-button--payment {
     width: 100%;
   }
 

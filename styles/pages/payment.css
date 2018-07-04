@@ -1,0 +1,8 @@
+.p-payment__buttons-container {
+  display: flex;
+}
+
+.p-button--payment {
+  width: 50%;
+  margin: 2.5em .638em;
+}
