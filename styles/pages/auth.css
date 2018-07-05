@@ -64,6 +64,10 @@
   flex-direction: column;
 }
 
+.p-container--auth h5 {
+  text-align: center;
+}
+
 .p-container--auth svg {
   margin-bottom: 80px;
 }

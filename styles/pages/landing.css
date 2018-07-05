@@ -1,6 +1,12 @@
 
 .p-section--hero {
-  padding: 300px 0;
+  padding: 250px 0;
+}
+
+.p-hero-face {
+  top: 0;
+  right: 0;
+  position: absolute;
 }
 
 .l-differences {
@@ -20,12 +26,20 @@
 
 .p-differences h3 {
   width: 80%;
-  height: 130px;
+  margin-bottom: 0;
 }
 
 .c-features--telegram {
   width: 50%;
   flex-direction: column;
+}
+
+.c-features--telegram h3 {
+  margin-bottom: 0;
+}
+
+.p-features--telegram-subtitle {
+  margin: 1.250em 0 6.250em;
 }
 
 .p-mockup {
@@ -113,6 +127,37 @@
   flex-wrap: wrap;
 }
 
+.p-container--rules:last-child {
+  margin: 0;
+  padding: 3.125em;
+
+  border-radius: .625em;
+  border: 1px solid var(--accent-color);
+}
+
 .p-container--rules h4 {
   margin-bottom: 0;
+}
+
+.p-bot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.p-prompt--bot {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-block--bots-title {
+  margin-top: .625em;
+  text-transform: inherit;
+  color: var(--accent-color);
+}
+
+.p-block--bots-title + span {
+  margin-top: .313em;
 }
