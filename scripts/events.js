@@ -26,3 +26,13 @@ var checkbox = document.querySelector(".o-label--checkbox");
 checkbox.addEventListener("click", function() {
   checkbox.classList.toggle("is-active");
 });
+
+// FAQ
+
+var faq = document.getElementsByClassName("accordion__visible");
+
+for(let i = 0; i < faq.length; i++) {
+  faq[i].addEventListener("click", function() {
+    faq[i].classList.toggle("is-active");
+  });
+}
