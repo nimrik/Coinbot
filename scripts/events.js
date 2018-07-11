@@ -1,11 +1,11 @@
-var dropdown = document.querySelector(".hamburger-box");
+let dropdown = document.querySelector(".hamburger-box");
 
 dropdown.addEventListener("click", function() {
   dropdown.classList.toggle("is-active");
 });
 
-var dropdownArray = document.getElementsByClassName("c-nav__header");
-var dropdownItem = document.getElementsByClassName("c-nav__header-item");
+let dropdownArray = document.getElementsByClassName("c-nav__header");
+let dropdownItem = document.getElementsByClassName("c-nav__header-item");
 
 for(let i = 0; i < dropdownItem.length; i++) {
   dropdownItem[i].addEventListener("click", function(e) {
@@ -13,7 +13,7 @@ for(let i = 0; i < dropdownItem.length; i++) {
   });
 }
 
-var questions = document.getElementsByClassName("p-questions");
+let questions = document.getElementsByClassName("p-questions");
 
 for(let i = 0; i < questions.length; i++) {
   questions[i].addEventListener("click", function() {
@@ -21,7 +21,7 @@ for(let i = 0; i < questions.length; i++) {
   });
 }
 
-var checkbox = document.querySelector(".o-label--checkbox");
+let checkbox = document.querySelector(".o-label--checkbox");
 
 checkbox.addEventListener("click", function() {
   checkbox.classList.toggle("is-active");
@@ -29,7 +29,7 @@ checkbox.addEventListener("click", function() {
 
 // FAQ
 
-var faq = document.getElementsByClassName("accordion__visible");
+let faq = document.getElementsByClassName("accordion__visible");
 
 for(let i = 0; i < faq.length; i++) {
   faq[i].addEventListener("click", function() {

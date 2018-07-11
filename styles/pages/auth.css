@@ -57,7 +57,7 @@
 .p-container--auth {
   width: 100%;
   margin: 0;
-  padding: 4em;
+  padding: 2.250em;
 
   display: flex;
   align-items: center;
@@ -66,10 +66,6 @@
 
 .p-container--auth h5 {
   text-align: center;
-}
-
-.p-container--auth svg {
-  margin-bottom: 80px;
 }
 
 .p-text__small--auth {

@@ -60,6 +60,9 @@
   .p-container--roadmap {
     width: 50%;
   }
+  .p-block-inner--shop {
+    min-height: 540px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,8 +99,12 @@
   .o-prompt,
   .p-honesty__container p,
   .p-container--shop,
-  .p-container--roadmap {
+  .p-container--roadmap,
+  .p-faq {
     width: 100%;
+  }
+  .p-faq {
+    padding: 0;
   }
   .o-features {
     width: 100%;
@@ -159,11 +166,12 @@
   }
 
   .p-differences {
-    margin-right: 0;
+    margin: 0;
   }
 
   .p-auth__type-container,
-  .p-registration-bots__item {
+  .p-registration-bots__item,
+  .o-accordion {
     width: 100%;
   }
 
@@ -185,12 +193,16 @@
   .p-auth__type-container.is-active:last-child, .p-auth__type-container:last-child {
     border-top-right-radius: 0;
   }
+  .p-differences h3 {
+    line-height: initial;
+  }
   
   .p-terms h4,
   .p-pricing h4,
   .p-honesty h4,
   .p-shop h4,
-  .p-roadmap h4 {
+  .p-roadmap h4,
+  .p-faq-page h4 {
     text-align: center;
   }
 
@@ -201,7 +213,12 @@
   .o-big-title {
     text-align: center;
   }
-
+  .p-faq {
+    margin: initial;
+  }
+  .p-block-inner--shop {
+    min-height: initial;
+  }
 }
 
 @media only screen and (max-width: 320px) {
