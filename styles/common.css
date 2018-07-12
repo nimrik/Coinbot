@@ -425,10 +425,9 @@ h4, .h4-title {
   padding: .625em;
 }
 
-.o-block-inner--career {
-  flex: 33.33%;
+.o-block-inner--third {
+  flex: 1 33.33%;
 }
-
 
 .o-block-inner--career .o-container--grid {
   min-height: 350px;
@@ -446,6 +445,10 @@ h4, .h4-title {
 .o-container {
   width: 50%;
   margin: 2.5em;
+}
+
+.o-container--third {
+  width: 33.33%;
 }
 
 .o-container--grid {
@@ -880,7 +883,9 @@ h4, .h4-title {
 .p-career h4,
 .p-terms h4,
 .p-pricing h4,
-.p-faq-page h4 {
+.p-faq-page h4,
+.p-team h4,
+.p-bots h4 {
   text-transform: initial;
   margin-bottom: 1em;
 }
@@ -997,4 +1002,88 @@ h4, .h4-title {
   width: 80%;
   margin-top: 50px;
   text-align: center;
+}
+
+.h4-title--team,
+.h4-title--bots {
+  position: relative;
+}
+
+.h4-title--bots {
+  text-transform: initial;
+}
+
+.h4-title--team::after,
+.h4-title--bots::after {
+  content: '';
+  left: 0;
+  bottom: -.313em;
+  width: 30%;
+  height: 3px;
+  position: absolute;
+  background-color: var(--accent-color);
+}
+
+.o-container--third {
+  padding: 1.250em;
+  margin: 0;
+}
+
+.o-container-inner span {
+  font-size: 1.5em;
+}
+
+.o-container-inner img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1.875em;
+
+  object-fit: contain;
+}
+
+.p-team__post {
+  display: block;
+  margin-bottom: .625em;
+}
+
+.o-container-inner p {
+  margin-bottom: initial;
+}
+
+.o-container-inner {
+  padding: 1.25em;
+  border-radius: .625rem;
+  background: var(--white-color);
+  box-shadow: 0 2px 40px 0 rgba(168, 168, 168, 0.16);
+}
+
+.p-block--team,
+.p-block--bots {
+  flex-wrap: wrap;
+  margin: -1.25em;
+}
+
+.o-container-inner .p-bots__text {
+  font-size: initial;
+  color: var(--accent-dark-color);
+}
+
+.p-bots__container {
+  margin: 2em 0;
+}
+
+.p-bots__line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .625em;
+}
+
+.p-bots__line span:last-child {
+  color: var(--accent-color);
+}
+
+.p-button--bots {
+  width: 100%;
 }

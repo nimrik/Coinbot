@@ -137,12 +137,23 @@
 }
 
 .c-nav__dropdown-item {
-  padding: 0.438rem .625em;
-
+  
   background: #fff;
   transition: all .3s ease;
 }
 
 .c-nav__dropdown-item:hover {
   background-color: var(--light-grey-color);
+}
+
+.c-nav__dropdown-item a {
+  display: block;
+  padding: 0.438rem .938em;
+}
+
+.p-header__balance {
+  font-weight: 600;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 0.056rem;
 }
